@@ -1,0 +1,12 @@
+{
+  "identifier": "com.popclip.extension.instant-shelltranslate",
+  "popclipVersion": 4069,
+  "name": "ShellTranslate",
+  "icon": "icon.png",
+  "regex": "(?s)^.{1,200}$",
+  "shellScriptFile": "translate.sh",
+  "description": "Translate using Translate shell",
+  "stdin": "text",
+  "after": "preview-result",
+  "interpreter": "bash"
+}
